@@ -2,7 +2,7 @@
 
 #####Typeface vs Font
 A _typeface_ is what you see, how the text looks, feels and reads.
-A _font_ on the other hand is a file which contains a typeface. It is a font that allows the computer access a typeface. A useful analogy is to think of 
+A _font_ on the other hand is a file which contains a typeface. It is a font that allows the computer to access a typeface. A useful analogy is to think of 
 a font as a CD and typeface as a song. Font is what you use, Typeface is what you see or experience.
 
 In building a website, the two most important factors affecting the look and legibility of the website are: **typeface** and **text color**
