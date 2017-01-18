@@ -28,5 +28,18 @@ The `audio` element specifies audio to embed in a web page. Like the `img` tag, 
 * `loop`- boolean to make the audio repeat indefinitely
 
 ###Audio fallbacks and multiple sources.
+In order to accommodate older browser without support for varied audio file formats, you should add `source` elements within the `audio` element, each with their `src` and `type` attributes.
 
+##Video
+Adding video is similar to audio.The same properties and fallbacks apply, but instead on a `video` element. Be sure to specifiy the dimensions of the video so the element stays in a reasonable space in the page. 
 
+**Customizing audio and video elements**
+> This is very possible albeit it will require Javascript to build a custom player.
+
+The `video` element allows for a `poster` attribute which specifies the image to disply before the video starts playing.
+
+##Adding Inline Frames
+`iframe` allows us to embed an entire web page into another one. The page so embedded is completely indepenet of the containing web page.
+
+##Semantically identifying figures and captions.
+`figure` is used to identify and wrap self contained content, usually media. `figurecaption` allows one to include a caption for the displayed figure.
