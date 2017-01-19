@@ -40,4 +40,42 @@ These are created by the combination of `select` and `option` elements. with the
 * `button` element with `type` set to submit. Has the advanatage that it can enclose other elements.
 
 ###Other Inputs
-Besides the already mentioned uses of the `input` tag, it is also possible to use it in other contexts
+Besides the already mentioned uses of the `input` tag, it is also possible to use it in other contexts. 
+* an `input` of type `hidden` allows one to pass data from a form which shouldn't be visible to users.
+* an `input` of type `file` allows users to add a file to a form.
+
+###Organizing Form Elements
+
+**Labels**
+* `label` to describe the inputs or controls they relate to by using the `for` attribute. It is also possible to wrap target content with the `label` element.
+
+**Fieldsets**
+* `fieldset`s, much like `section` wrap related content together within a form for better organization. They include a border outline which may be styled using CSS. 
+
+**Legends**
+* `legend`s provide the caption or heading for the `fieldset` element. The `legend` element should be the first child element within a `fieldset` as it wraps the rest of the content within the fieldset.
+
+###Form & Input Attributes
+
+* `disabled` - affects all nested elements if applied to a `fieldset`, also ifapplied to an hidden `input`, makes it ignored.
+* `placeholder` - to provide hints of what's expected in an input field.
+* `required` - ensures that an element contains a value before it can be submitted to the server. Validation is specific to the type of control e.g. `required` on an email `input` will not only ensure that an input is supplied but that it is also a valid input.
+* `accept`
+* `formaction`
+* `formnovalidate`
+* `maxlength`
+* `readonly`
+* `autocomplete`
+* `formenctype`
+* `formtarget`
+* `min`
+* `max`
+* `selectionDirection`
+* `autofocus`
+* `formmethod`
+* `pattern`
+* `step`
+
+
+
+
