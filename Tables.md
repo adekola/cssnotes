@@ -21,3 +21,9 @@ The `caption` element describes what the table contains. Must come immeditalye a
 ###Table Borders
 `border-collapse` property allows one to determine the border model for a table, given that nested cells will have their own border specs indepenedent of the table and this couldcause duplicate borders in several cases.
 Values include `collapse, **separate**, inherit`.
+
+`border-spacing` determines how much space if any would be set between the borders. This property onley works when the `border-collapse` property is set to `separate`, it's default value. In addition, this property can accept 2 values - one for the horizontal spacing and the other for the vertical spacing (respectively).
+
+###Aligning Text
+String values are often flush left while numbers are often flush right. `vertical-align: {top, middle, bottom}` and `text-align` properties help to achieve this. Note that `vertical-align` only applies to inline elements and tabel cells. It won't work for block, inline-block or other element levels. 
+
